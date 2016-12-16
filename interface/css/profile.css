@@ -1,0 +1,196 @@
+/*CSS for profile*/
+
+#pcont{
+    min-height:400px;
+    width:650px;
+    /*background:url(../images/blushade2.gif);*/
+    /*min-height: 700px;*/
+}
+
+.proftable{
+    border:thin solid #69C;
+    min-width: 500px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+}
+
+.ptd{
+    padding: 3px;
+    border-collapse:collapse;
+    vertical-align:top;
+    border-spacing: 0px;
+}
+
+.pheader{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:24px;
+    color:#369;
+    padding-top: 10px;
+}
+.profpic{
+    border-style:solid;
+    border-spacing: 0.5px;
+    border-color:#999;
+    azimuth:center;
+    padding: 0.5px;
+    vertical-align:top;
+    max-width: 190px;
+    max-height: 400px;
+}
+
+.pbox{
+    width: 300px;
+    border: 1px dotted #999;
+    min-height:100px;
+    padding: 1px;
+    text-align: left;
+    margin: 6px;
+}
+
+.bhead{
+    border-top: 1px none #999;
+    border-bottom: 1px none #999;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1em;
+    font-weight:bolder;
+    color:#fff;
+    background: #AAD6EA ;
+    text-align:justify;
+    max-height: 50px;
+    padding:10px;
+    border-color:#CCC;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+}
+
+.bcont{
+    padding:5px;
+    font-family:Arial, Helvetica, sans-serif;
+    background:none;
+    font-size:12px;
+    color:#000;
+    border-collapse:collapse;
+}
+
+.infocont{
+    margin:2px;
+    padding: 2px;
+    width:100%;
+}
+
+#ftitle{
+    font-weight:bold;
+    padding-right: 5px;
+    padding-left: 2px;
+    width:30%;
+    float:left;
+}
+
+#fvalue{
+    padding-left:5px;
+    padding-right:5px; 
+    float:left;
+    width:160px;
+}
+
+td{
+    padding: 4px;
+    border-collapse:collapse;
+    vertical-align:top;
+    border-spacing: 1px;
+    width:150px;
+}
+
+#lContainer{
+    float:left;
+    padding:10px;
+    width: 98%;
+    text-align: justify;
+}
+
+#rContainer{
+    float:left;
+    min-width:100px;
+    max-width:230px;
+}
+
+.sidelinks{
+    padding: 5px;
+    border:thin solid #6CF;
+    margin: 1px;
+}
+
+.profbtn {
+    padding-top:2.5px;
+    padding-bottom:1px;
+    padding-left: 8px;
+    padding-right:8px;
+    margin:1px;
+    height:20px;
+    text-align:center;
+    font-size:12px;
+    min-width: 180px;
+}
+
+.profbtn:hover{
+    background:#369;
+    color:#fff;
+    font-size:12px;
+}
+
+.profbtn a{
+    font-size:12px;
+}
+
+.profbtn a:hover{
+    color:#FFF;
+    font-size:12px;
+}
+
+.list-new{
+    list-style:none;
+    list-style-position:inherit;
+}
+
+.statusbox{
+    overflow:scroll;
+    border-collapse:collapse;
+    white-space:nowrap;
+}
+
+.stat{
+    border:1px thin solid #ccc;
+    padding:10px;
+    margin:4px;
+}
+
+.pglinks a{
+    padding: 0.3em 0.2em;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    font-size: 7px;
+    text-decoration: none;
+    border: solid 1px #AAE;
+    color: #15B;
+}
+
+.profLink a{
+    padding-left:2px;
+    padding-right:2px;
+    padding-top:1px;
+    padding-bottom:1px;
+    color: #39c; 
+    border:#C7C7C7 thin solid;
+}
+
+.profLink a:hover{
+    padding-left:2px;
+    padding-right:2px;
+    padding-top:1px;
+    padding-bottom:1px;
+    border:#C7C7C7 thin solid;
+    color:#069;
+    background:#ccc;
+}

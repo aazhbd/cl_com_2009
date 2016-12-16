@@ -1,0 +1,2 @@
+<center><p><a href="{$smarty.const.URL}/static/about">About</a> | <a href="{$smarty.const.URL}/static/privacy">Privacy policy</a> | <a href="{$smarty.const.URL}/static/terms">Terms of Use</a> | <a href="{$smarty.const.URL}/static/contact">Contact</a></p>
+<p style="color:#ccc;">Copyright &copy; 2009 Design: <a href="mailto:aazhbd@yahoo.com">aazhbd</a></p></center>

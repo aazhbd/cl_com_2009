@@ -1,0 +1,13 @@
+
+.box { height:1%; }
+
+#panel-left { width: 168px;}
+
+ul#h_nav li li a {
+    margin-bottom: -28px;
+}
+
+.forminput{
+	float:left;
+	text-align:left;
+}

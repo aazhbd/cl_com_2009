@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule (.*) index.php?url=$1 [QSA,NC]
+</IfModule>
+
+<IfModule php5_module>
+    php_value upload_max_filesize 64M
+    php_value post_max_size 65M
+    php_value max_execution_time 3600
+    php_value memory_limit 256M
+</IfModule>

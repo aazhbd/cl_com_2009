@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /_dev/
+Disallow: /_backup/
+Disallow: /config/
+Disallow: /tmp/
+Disallow: /data/
+Disallow: /interface/
+Disallow: /scripts/
